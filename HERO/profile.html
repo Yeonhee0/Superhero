@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>PROFILE</title>
+<link rel="stylesheet" href="profile.css">
+<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+<body>
+
+  <section id="container">
+
+    <section id="header">
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul>
+            <li><button class="slide"> <a href="home.html">HOME</a> </button></li>
+            <li><button class="slide"> <a href="profile.html">PROFILE</a> </button></li>
+            <li><button class="slide"> <a href="power.html">SUPER POWER</a> </button></li>
+            <li><button class="slide"> <a href="enemy.html">ENEMY</a> </button></li>
+            <li><button class="slide"> <a href="story.html">ORIGIN STORY</a> </button></li>
+        </div>
+      </div>
+
+      <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+    </section>
+
+    <section id="main">
+
+
+      <section id="left">
+
+      <section id="title">
+        PROFILE
+      </section>
+
+      <section id="text">
+
+        <section class="text2">
+          <span>  NAME : </span> JUN <br>
+          <span>  CHARACTER NAME : </span> SOUL KEEPER <br>
+          <span>  AGE : </span> 18(2018) - 24 (2024) <br>
+          <span>  JOB : </span> DOCTOR <br>
+          <span>  CITY OF RESIDENCE : </span> NEY YORK
+
+        </section>
+
+        <section class="text2">
+            <span> ARCHETYPE : </span> <br> The Magician, The Explorer,
+            <br> The Creator <br>
+            <span>   WEAKNESS : </span> The possibility of the become conqueror or ruler
+        </section>
+
+      </section>
+
+    </section>
+
+    <section id="right">
+        <video autoplay muted loop id="myVideo" height="450px" controls>
+          <source src="img/sky.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    </section>
+
+
+    <section id="footer">
+
+        <section id="footericon">
+          <a href="http://www.twitter.com"><img src="icon/twit.png" width="30px"></a>
+          <a href="http://www.facebook.com"><img src="icon/face.png" width="30px"></a>
+          <a href="http://www.instagram.com"><img src="icon/insta.png" width="30px"></a>
+          <a href="http://www.google.com"><img src="icon/mail.png" width="30px"></a>
+        </section>
+
+        <section id="footertext">
+          LENA © 2018  Lena Yeonhee Park. All Rights Reserved.
+        </section>
+
+    </section>
+
+  </section>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+  </body>
+
+
+  </html>
